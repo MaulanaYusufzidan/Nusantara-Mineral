@@ -7,6 +7,7 @@ import Governance from "@/components/Governance";
 import Investors from "@/components/Investors";
 import Careers from "@/components/Careers";
 import News from "@/components/News";
+import CTA from "@/components/CTA";
 
 export default function Home() {
   return (
@@ -21,9 +22,10 @@ export default function Home() {
         <Investors />
         <Careers />
         <News />
-        <section className="flex min-h-[40vh] items-center justify-center bg-stone px-6 text-center">
+        <CTA />
+        <section className="flex min-h-[20vh] items-center justify-center bg-stone px-6 text-center">
           <p className="font-body text-charcoal-soft">
-            CTA and Footer are built next.
+            Footer is built next.
           </p>
         </section>
       </main>

@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1600 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3d4f3a" />
+      <stop offset="45%" stop-color="#29261f" />
+      <stop offset="100%" stop-color="#1c1a16" />
+    </linearGradient>
+    <linearGradient id="ridgeFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3729" />
+      <stop offset="100%" stop-color="#1c1a16" />
+    </linearGradient>
+    <linearGradient id="ridgeNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#242019" />
+      <stop offset="100%" stop-color="#141310" />
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a9813e" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#a9813e" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)" />
+  <circle cx="1180" cy="360" r="260" fill="url(#sun)" />
+
+  <!-- distant terraced ridge -->
+  <path
+    d="M0,560 L120,520 L240,545 L360,500 L520,530 L680,485 L820,515 L980,470 L1140,505 L1300,460 L1460,495 L1600,470 L1600,1000 L0,1000 Z"
+    fill="url(#ridgeFar)"
+  />
+
+  <!-- near mining terraces (stepped benches) -->
+  <path
+    d="M0,720 L160,720 L160,680 L340,680 L340,650 L540,650 L540,610 L760,610 L760,660 L960,660 L960,700 L1180,700 L1180,650 L1380,650 L1380,700 L1600,700 L1600,1000 L0,1000 Z"
+    fill="url(#ridgeNear)"
+  />
+
+  <!-- crane / structure silhouettes -->
+  <g stroke="#a9813e" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <line x1="1120" y1="650" x2="1120" y2="480" />
+    <line x1="1120" y1="500" x2="1230" y2="500" />
+    <line x1="1120" y1="500" x2="1060" y2="520" />
+    <line x1="1230" y1="500" x2="1230" y2="540" />
+  </g>
+  <g stroke="#a9813e" stroke-width="3" stroke-linecap="round" opacity="0.45">
+    <line x1="260" y1="650" x2="260" y2="520" />
+    <line x1="260" y1="540" x2="340" y2="540" />
+  </g>
+
+  <rect width="1600" height="1000" fill="#1c1a16" opacity="0.12" />
+</svg>

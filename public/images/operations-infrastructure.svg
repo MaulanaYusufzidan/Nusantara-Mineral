@@ -1,0 +1,21 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="iSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#29261f" />
+      <stop offset="100%" stop-color="#141310" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#iSky)" />
+  <line x1="0" y1="420" x2="800" y2="420" stroke="#3d4f3a" stroke-width="6" opacity="0.5" />
+  <g stroke="#a9813e" stroke-width="4" opacity="0.75">
+    <line x1="100" y1="420" x2="180" y2="260" />
+    <line x1="180" y1="260" x2="260" y2="420" />
+    <line x1="260" y1="420" x2="340" y2="260" />
+    <line x1="340" y1="260" x2="420" y2="420" />
+    <line x1="420" y1="420" x2="500" y2="260" />
+    <line x1="500" y1="260" x2="580" y2="420" />
+    <line x1="580" y1="420" x2="660" y2="260" />
+    <line x1="660" y1="260" x2="740" y2="420" />
+  </g>
+  <line x1="80" y1="420" x2="760" y2="420" stroke="#29261f" stroke-width="10" />
+</svg>

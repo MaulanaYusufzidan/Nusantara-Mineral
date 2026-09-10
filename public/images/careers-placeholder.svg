@@ -1,0 +1,29 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="cSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3729" />
+      <stop offset="100%" stop-color="#141310" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#cSky)" />
+
+  <line x1="0" y1="620" x2="1600" y2="620" stroke="#29261f" stroke-width="2" opacity="0.6" />
+
+  <!-- abstract workforce: overlapping circles suggesting a crowd -->
+  <g opacity="0.85">
+    <circle cx="420" cy="560" r="46" fill="#3d4f3a" />
+    <circle cx="500" cy="580" r="52" fill="#29261f" />
+    <circle cx="600" cy="555" r="44" fill="#a9813e" opacity="0.6" />
+    <circle cx="690" cy="585" r="50" fill="#3d4f3a" />
+    <circle cx="790" cy="560" r="46" fill="#29261f" />
+    <circle cx="880" cy="590" r="54" fill="#3d4f3a" />
+    <circle cx="980" cy="565" r="44" fill="#a9813e" opacity="0.5" />
+    <circle cx="1070" cy="585" r="48" fill="#29261f" />
+    <circle cx="1160" cy="560" r="46" fill="#3d4f3a" />
+  </g>
+
+  <g stroke="#a9813e" stroke-width="3" opacity="0.4">
+    <line x1="200" y1="620" x2="200" y2="500" />
+    <line x1="200" y1="520" x2="290" y2="520" />
+  </g>
+</svg>

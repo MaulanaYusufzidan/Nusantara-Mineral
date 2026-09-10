@@ -6,6 +6,7 @@ import Sustainability from "@/components/Sustainability";
 import Governance from "@/components/Governance";
 import Investors from "@/components/Investors";
 import Careers from "@/components/Careers";
+import News from "@/components/News";
 
 export default function Home() {
   return (
@@ -19,9 +20,10 @@ export default function Home() {
         <Governance />
         <Investors />
         <Careers />
-        <section className="flex min-h-[60vh] items-center justify-center bg-stone px-6 text-center">
+        <News />
+        <section className="flex min-h-[40vh] items-center justify-center bg-stone px-6 text-center">
           <p className="font-body text-charcoal-soft">
-            More sections are built one stage at a time.
+            CTA and Footer are built next.
           </p>
         </section>
       </main>

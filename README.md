@@ -30,6 +30,17 @@ visual identity in this repository is original.
 > This is a portfolio/learning project. Nusantara Mineral is not a real
 > company, and no content here should be treated as factual.
 
+## Preview
+
+**Hero**
+![Hero section — fullscreen banner with heading "Transforming Resources Into Sustainable Progress"](Readme-hero.png)
+
+**Our Operations**
+![Our Operations section — Mining, Processing and Infrastructure cards](operations.png)
+
+**Sustainability**
+![Sustainability section — Environment, People and Community pillars with impact stats](sustainability.png)
+
 ## Features
 
 - **Sticky, transparent-to-solid navbar** with a full-screen mobile menu

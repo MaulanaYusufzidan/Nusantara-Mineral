@@ -14,20 +14,20 @@ export const newsArticles: NewsArticle[] = [
     category: "Sustainability",
     date: "Aug 12, 2026",
     title: "Nusantara Mineral Cuts Site Emissions by 40% Ahead of Target",
-    image: "/images/sustainability-placeholder.svg",
+    image: "/images/Sustain.jpg",
   },
   {
     slug: "processing-facility",
     category: "Operations",
     date: "Jul 28, 2026",
     title: "New Processing Facility Reaches Full Operational Capacity",
-    image: "/images/operations-processing.svg",
+    image: "/images/Process.jpg",
   },
   {
     slug: "vocational-training",
     category: "Community",
     date: "Jul 5, 2026",
     title: "Vocational Training Program Graduates Its First 200 Participants",
-    image: "/images/careers-placeholder.svg",
+    image: "/images/Carrer.jpg",
   },
 ];

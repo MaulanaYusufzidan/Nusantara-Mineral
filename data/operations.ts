@@ -14,20 +14,20 @@ export const operations: Operation[] = [
     title: "Mining",
     description:
       "Responsible extraction guided by geological precision, rigorous safety standards, and a plan for the land long after operations end.",
-    image: "/images/operations-mining.svg",
+    image: "/images/operations-mining.jpg",
   },
   {
     slug: "processing",
     title: "Processing",
     description:
       "Modern processing facilities that convert raw material into refined output efficiently, with continuous monitoring of quality and emissions.",
-    image: "/images/operations-processing.svg",
+    image: "/images/Process.jpg",
   },
   {
     slug: "infrastructure",
     title: "Infrastructure",
     description:
       "Ports, roads and power that connect our sites to markets — built to serve operations today and the communities around them for decades.",
-    image: "/images/operations-infrastructure.svg",
+    image: "/images/Infrastructure.jpg",
   },
 ];

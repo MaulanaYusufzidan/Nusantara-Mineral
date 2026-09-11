@@ -26,7 +26,7 @@ export default function Sustainability() {
             className="relative aspect-[4/5] w-full overflow-hidden rounded-sm lg:col-span-2 lg:sticky lg:top-28 lg:aspect-auto lg:h-[36rem]"
           >
             <Image
-              src="/images/sustainability-placeholder.svg"
+              src="/images/Sustain-2.jpg"
               alt="Abstract illustration of forest canopy reclaiming rehabilitated mining terrain"
               fill
               unoptimized

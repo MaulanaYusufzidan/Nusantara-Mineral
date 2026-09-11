@@ -17,7 +17,7 @@ export default function Hero() {
         className="absolute inset-0"
       >
         <Image
-          src="/images/hero-placeholder.svg"
+          src="/images/hero.jpg"
           alt="Aerial view of a mining terrace with distant ridgelines and industrial structures at dusk"
           fill
           priority

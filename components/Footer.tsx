@@ -1,5 +1,6 @@
 import type { ReactElement } from "react";
 import { footerColumns, site, socialLinks } from "@/data/site";
+import Image from "next/image";
 
 // lucide-react no longer ships brand marks, so these are minimal,
 // original line-icon glyphs standing in for each platform.
@@ -49,10 +50,21 @@ const socialIcons: Record<string, () => ReactElement> = {
 export default function Footer() {
   return (
     <footer className="border-t border-white/10 bg-charcoal px-6 py-16 lg:px-10 lg:py-20">
-      <div className="mx-auto max-w-7xl">
+       <div className="mx-auto max-w-7xl">
         <div className="grid gap-12 lg:grid-cols-5 lg:gap-8">
           <div className="lg:col-span-2">
-            <p className="font-display text-xl text-white">{site.name}</p>
+            <div className="flex items-center gap-2.5">
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-full">
+                <Image
+                  src="/images/logo.png"
+                  alt=""
+                  width={36}
+                  height={36}
+                  className="h-full w-full object-cover"
+                />
+              </span>
+              <p className="font-display text-xl text-white">{site.name}</p>
+            </div>
             <p className="mt-3 max-w-xs font-body text-sm leading-relaxed text-stone/55">
               {site.tagline}. Responsible mineral resources development
               across Indonesia.

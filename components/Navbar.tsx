@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, Search, X } from "lucide-react";
 import { primaryNav, site } from "@/data/site";
+import Image from "next/image";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -45,15 +46,25 @@ export default function Navbar() {
       }`}
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-10">
-        <a
-          href="#top"
-          className={`font-display text-lg tracking-tight transition-colors ${
-            solid ? "text-charcoal" : "text-white"
-          }`}
-        >
-          {site.name}
-        </a>
-
+      <a href="#top" className="flex items-center gap-2.5">
+  <span className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-full shadow-sm">
+    <Image
+      src="/images/logo.png"
+      alt=""
+      width={34}
+      height={34}
+      priority
+      className="h-full w-full object-cover"
+    />
+  </span>
+  <span
+    className={`font-display text-lg tracking-tight transition-colors ${
+      solid ? "text-charcoal" : "text-white"
+    }`}
+  >
+    {site.name}
+  </span>
+</a>
         <nav className="hidden items-center gap-8 lg:flex">
           {primaryNav.map((link) => (
             <a

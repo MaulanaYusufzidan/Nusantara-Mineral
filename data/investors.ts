@@ -11,7 +11,7 @@ export type InvestorItem = {
 export const investorItems: InvestorItem[] = [
   {
     title: "Annual Reports",
-    description: "Full-year financial statements and operational review.",
+    description: "Full-years financial statements and operational review.",
   },
   {
     title: "Financial Highlights",

@@ -12,8 +12,8 @@ export type Stat = {
 };
 
 export const stats: Stat[] = [
-  { value: "50+", label: "Years of Experience" },
-  { value: "3", label: "Operational Areas" },
+  { value: "25+", label: "Years of Experience" },
+  { value: "5", label: "Operational Areas" },
   { value: "12K+", label: "People Impacted" },
   { value: "24/7", label: "Operational Excellence" },
 ];
